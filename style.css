@@ -1,0 +1,132 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+#navbarColor {
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#logo_navbar {
+    height: 40px; 
+    width: auto;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.linkColor {
+    color: #495057; 
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.linkColor:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+svg.linkColor {
+    color: #495057;
+    transition: color 0.3s ease;
+}
+
+svg.linkColor:hover {
+    color: #000000;
+}
+
+.bg-first-custom {
+    background-color: #0b0c10;
+}
+
+
+.main-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./media/ufficio.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: 0;
+}
+
+
+.main-header .btn-custom {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-header .btn-custom:hover {
+    transform: translateY(-3px);
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.main-header .btn-custom:active,
+.main-header .btn-custom:focus {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-color: #000000 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+#sezioneContatori {
+    margin-top: 80px !important; 
+    margin-bottom: 80px !important;
+}
+
+#countCustomers, 
+#countProducts, 
+#countReviews {
+    display: inline-block;
+    min-width: 80px; 
+    text-align: center;
+}
+
+
+.reviewCard {
+    background-color: #ffffff !important; 
+    color: #000000 !important;          
+    padding: 40px;                      
+    border-radius: 12px;               
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important; 
+    text-align: center;               
+    margin: 20px auto;                
+    max-width: 70%;                    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: brightness(1) invert(0); 
+}
+
+
+.form-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    transition: background 0.1s ease;
+}
+
